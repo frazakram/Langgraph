@@ -1,0 +1,21 @@
+1-define state class which inherit typedict/pydantic i.e class BMI(TypedDict): then add attributes like weight,geight,bmi_value etc
+2-define graph- create graph object .this object is from StateGraph class and pass state class as type
+3-define node function
+4-add nodes to graph
+5-add edges to graph
+6-compile graph
+7-execute graph
+3-define node function in which we pass state object as input which type is <state class name > that is def bmi_Cal(state:BMI)->BMI:
+weigh_h=state["name of attribute of state class"]
+return  state
+object is graph in below ->>>>
+call graph object .add_node("name of the node",point to function name)
+call graph object.add_edge(START,"name of the node")
+call graph object.add_edge("name of the node",END)
+call graph object.compile() ssign it to new variable and assigne it to new variable name worklow_name
+create a newvariable_init_state dictonary of key value pair of state attribute which is inital
+call graph newvariablename_final_State=workflow_name.invoke(newvriable_init_state)
+
+
+
+
