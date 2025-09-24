@@ -2,3 +2,5 @@ langgraph
 langchain
 langchain-openai
 dotenv
+langchain-community
+setuptools<81

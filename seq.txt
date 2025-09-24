@@ -12,9 +12,10 @@ object is graph in below ->>>>
 call graph object .add_node("name of the node",point to function name)
 call graph object.add_edge(START,"name of the node")
 call graph object.add_edge("name of the node",END)
-call graph object.compile() ssign it to new variable and assigne it to new variable name worklow_name
+call graph object.compile() assign it to new variable and assigne it to new variable name worklow_name
 create a newvariable_init_state dictonary of key value pair of state attribute which is inital
 call graph newvariablename_final_State=workflow_name.invoke(newvriable_init_state)
+
 
 
 

@@ -1,0 +1,1 @@
+you can use Literal function in state class so that the specfic state is giving only specfic response in  from the list inside the literal list
